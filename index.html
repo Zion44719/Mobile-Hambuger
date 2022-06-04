@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mobile Hambuger</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_wrap">
+        <div class="logo">
+          <h1>Logo</h1>
+        </div>
+
+        <div class="nav">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Team</li>
+            <li>Sign Up</li>
+          </ul>
+        </div>
+
+        <div class="mobile_nav">
+          <a onclick="openBtn();" style="text-decoration: none" href="#">🔶</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Section -->
+    <section>
+      <div id="menu" class="menu">
+        <div>
+          <a
+            onclick="closeBtn();"
+            style="text-decoration: none; color: red; font-size: 2rem"
+            href="#"
+            >✂</a
+          >
+        </div>
+        <div class="mobile_wrap">
+          <div class="nav_list">
+            <h2><a href="#">Home</a></h2>
+          </div>
+          <div class="nav_list">
+            <h2><a href="#">About</a></h2>
+          </div>
+          <div class="nav_list">
+            <h2><a href="#">Team</a></h2>
+          </div>
+          <div class="nav_list">
+            <h2><a href="#">Sign Up</a></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p>Copyright &copy; | 2022. All Right Reserved By Zionhilt Oluwafemi</p>
+    </footer>
+
+    <script src="effect.js"></script>
+  </body>
+</html>
